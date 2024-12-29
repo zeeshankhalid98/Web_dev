@@ -13,13 +13,28 @@
             text-align: center;
         }
         header {
-            background-color: #004d40;
+            background: url('image1.jpg') no-repeat center center/cover;
             color: white;
             padding: 20px;
             text-align: center;
+            position: relative;
+        }
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5); /* Add a dark overlay */
+            z-index: 1;
+        }
+        header h1 {
+            position: relative;
+            z-index: 2;
         }
         nav {
-            background-color: #004d40;
+            background-color: #2c73a0;
             overflow: hidden;
         }
         nav a {
@@ -35,7 +50,7 @@
             color: white;
         }
         footer {
-            background-color: #004d40;
+            background-color: #2c73a0;
             color: white;
             text-align: center;
             padding: 10px 0;
