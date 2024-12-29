@@ -3,89 +3,284 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tunnel Boring Machine (TBM)</title>
+    <title>Hydrology and Water Resources</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background: #333;
-            color: #fff;
-            padding: 1rem 0;
             text-align: center;
         }
-
-        section {
-            padding: 1rem 2rem;
-            background: #fff;
-            margin: 1rem 0;
+        header {
+            background-color: #004d40;
+            color: white;
+            padding: 20px;
+            text-align: center;
         }
-
-        h1 {
-            color: #ffffff;
+        nav {
+            background-color: #004d40;
+            overflow: hidden;
         }
-
-
-        h2 {
-            color: #333;
-        }
-
-        ul {
-            list-style-type: disc;
-            margin-left: 2rem;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
+        nav a {
+            float: left;
             display: block;
-            margin: 1rem 0;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #00796b;
+            color: white;
+        }
+        footer {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .mt-4 {
+            margin-top: 1.5rem;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: -0.5rem;
+        }
+        .col-md-4 {
+            flex: 0 0 33.3333%;
+            padding: 0.5rem;
+        }
+        .card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 0.25rem;
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+            margin-bottom: 1.5rem;
+        }
+        .card img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-top-left-radius: 0.25rem;
+            border-top-right-radius: 0.25rem;
+        }
+        .card-body {
+            padding: 1.25rem;
+        }
+        .card-title {
+            margin-bottom: 0.75rem;
+            font-size: 1.25rem;
+        }
+        .card-text {
+            margin-bottom: 1.25rem;
+        }
+        .btn-primary {
+            display: inline-block;
+            font-weight: 400;
+            color: #fff;
+            text-align: center;
+            vertical-align: middle;
+            user-select: none;
+            background-color: #007bff;
+            border: 1px solid #007bff;
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            border-radius: 0.25rem;
+            text-decoration: none;
+        }
+        .section-img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            margin-bottom: 1rem;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Tunnel Boring Machine (TBM)</h1>
+        <h1>Hydrology and Water Resources</h1>
     </header>
-    <section>
-        <h2>History</h2>
-        <p>The first TBM was developed in 1825 by Marc Brunel, an English engineer, to excavate the Thames Tunnel in London. However, it was not until the 1950s and 1960s that modern TBMs were developed, featuring rotating cutting wheels and mechanized excavation.</p>
-    </section>
-    <section>
-        <h2>Working</h2>
-        <p>A TBM is a complex machine designed to excavate tunnels through various types of soil and rock. Here's a simplified overview of its working:</p>
-        <ul>
-            <li><strong>Cutting Head:</strong> The cutting head is equipped with cutting tools, such as disc cutters or tungsten carbide teeth, which rotate to excavate the soil or rock.</li>
-            <li><strong>Shield:</strong> The shield is a protective casing that surrounds the cutting head and supports the tunnel walls as excavation progresses.</li>
-            <li><strong>Propulsion:</strong> The TBM is propelled forward by hydraulic or electric motors, which push the machine through the excavated soil or rock.</li>
-            <li><strong>Muck Removal:</strong> The excavated material (muck) is removed from the tunnel through a conveyor belt or screw conveyor.</li>
-            <li><strong>Segmental Lining:</strong> As the TBM advances, precast concrete segments are installed to form the tunnel lining, providing structural support and protection from groundwater.</li>
-        </ul>
-    </section>
-    <section>
-        <!-- <h2>Images</h2> -->
-        <img src="image1.jpg" alt="TBM Image 1">
+    <nav>
+        <a href="#about">About</a>
+        <a href="#graduate-program">Graduate Program</a>
+        <a href="#why-hrc">Why HRC?</a>
+        <a href="#approach">Approach</a>
+        <a href="#modules">Modules</a>
+        <a href="#highlights">Highlights</a>
+        <a href="#tbm">TBM</a>
+    </nav>
+
+    <section id="about" class="container mt-4">
+        <h2>About the Hydro Group</h2>
+        <img src="image1.jpg" alt="About the Hydro Group" class="section-img">
+        <p>The Water Resources and Hydrogeology Program falls under the umbrella of the Department of Earth System Science (ESS) within the Stanford Doerr School of Sustainability at Stanford University. Our research interests span a range of topics including the scientific basis for water resources management with special interest in developing regions, ecohydrology, global freshwater vulnerability, surface-groundwater interactions, groundwater allocation policy, fluid flow and solute transport processes, innovative simulation techniques, and cutting-edge technologies in hydro geophysics and remote sensing for near-surface hydrology.</p>
     </section>
 
+    <section id="graduate-program" class="container mt-4">
+        <h2>Graduate Program</h2>
+        <img src="image1.jpg" alt="Graduate Program" class="section-img">
+        <p>The PhD track (MS is not required to apply directly to the PhD program) combines earth sciences and engineering. Research integrates field data with quantitative modeling. The Stanford Hydro Group consists of graduate students and post-doctoral research associates working with Professor Steven Gorelick. We interact with faculty in other Stanford departments and many scientists around the world. The Hydro Group has taken the lead in developing the Global Freshwater Initiative through the Woods Institute for the Environment.</p>
+    </section>
 
-    <section>
-        <h2>Types of TBMs</h2>
-        <ul>
-            <li>Hard rock TBMs</li>
-            <li>Soft ground TBMs (e.g., earth pressure balance, EPB)</li>
-            <li>Mixed ground TBMs</li>
-            <li>Micro-TBMs (smaller machines for smaller tunnels)</li>
-        </ul>
+    <section id="why-hrc" class="container mt-4">
+        <h2>Why HRC?</h2>
+        <img src="image1.jpg" alt="Why HRC" class="section-img">
+        <p>Hydrologic is an education project funded by the National Science Foundation to promote the collaborative development and adoption of authentic, active learning resources in hydrology and water resources.</p>
     </section>
-    <section>
-        <!-- <h2>Images</h2> -->
-        <img src="image2.jpg" alt="TBM Image 2">
-        <!-- <img src="image2.jpg" alt="TBM Image 2"> -->
+
+    <section id="approach" class="container mt-4">
+        <h2>Approach</h2>
+        <img src="image1.jpg" alt="Approach" class="section-img">
+        <p>Building a community aims to create a community of users who are interested in adopting innovative active-learning resources in hydrology and water resources engineering.</p>
     </section>
+
+    <section id="modules" class="container mt-4">
+        <h2>Modules</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="image1.jpg" alt="Open Channel Flow Modeling">
+                    <div class="card-body">
+                        <h3 class="card-title">Open Channel Flow Modeling</h3>
+                        <p class="card-text">This introductory modeling module will provide a general overview of the basics of numerical modeling, model development, and applications.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="image1.jpg" alt="Remote Sensing Applications in Hydrology">
+                    <div class="card-body">
+                        <h3 class="card-title">Remote Sensing Applications in Hydrology</h3>
+                        <p class="card-text">This module offers background content on the fundamentals of remote sensing, but also integrates a set of existing online tools for visualization and analysis of satellite observations.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="image1.jpg" alt="Snow and Climate">
+                    <div class="card-body">
+                        <h3 class="card-title">Snow and Climate</h3>
+                        <p class="card-text">In this module, students will develop the vocabulary of snow-related terminology, relate snow processes to weather phenomena, develop skill in reporting technical information, and use data from a variety of public sources to operate an online snow model.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="highlights" class="container mt-4">
+        <h2>Highlights</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="image1.jpg" alt="Global Freshwater Initiative">
+                    <div class="card-body">
+                        <h3 class="card-title">Global Freshwater Initiative</h3>
+                        <p class="card-text">The Global Freshwater Initiative (GFI) is developing strategies that promote the long-term viability of freshwater supplies for people and ecosystems threatened by climate change, shifts in land use, increasing population, decaying infrastructure, and groundwater over-pumping.</p>
+                        <p><a href="#">GFI Factsheet</a></p>
+                        <p><a href="#">GFI Research Brief</a></p>
+                        <a href="#" class="btn btn-primary">Learn more about the Global Freshwater Initiative ↗</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="image1.jpg" alt="FUSE Project">
+                    <div class="card-body">
+                        <h3 class="card-title">FUSE Project</h3>
+                        <p class="card-text">FUSE (Food-water-energy for Urban Sustainable Environments) is a transdisciplinary 3-year research project (2018–2021) involving the Food-Water-Energy Nexus (FWE) in Pune (India). The project will develop a long-term systems perspective and tools to identify viable paths to sustainability. It brings together scientists, engineers, economists, and stakeholder engagement experts from Stanford University in California, USA, IIASA (International Institute for Applied Systems Analysis) in Laxenburg, Austria, ZEF (Hohenheim Centre for Development Research) in Leipzig, Germany, and IIASA (Australian Foundation for Development Research) in Vienna, Austria. The project is a not-for-profit research effort and part of the Sustainable Urbanisation Global Initiative of JPI Urban Europe and the Belmont Forum. Each of the national teams is supported individually by its own national science funding agency.</p>
+                        <a href="#" class="btn btn-primary">Learn more about the FUSE Project ↗</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="image1.jpg" alt="Jordan Water Project">
+                    <div class="card-body">
+                        <h3 class="card-title">Jordan Water Project</h3>
+                        <p class="card-text">In arid regions throughout the world, water system security is at a tipping point due to a confluence of drivers that include severely limited water supplies, rapid population growth and demographic shifts, climate change and variability, transboundary competition for shared freshwater resources, and institutional dysfunction. The overarching challenge is to sustain the human-natural system in the presence of rapid environmental and socioeconomic change. This interdisciplinary effort is aimed at developing a new approach to evaluate policies to enhance sustainability of freshwater resource systems. Our research is focused on Jordan, which is one of the ten water poorest countries in the world.</p>
+                        <a href="#" class="btn btn-primary">Learn more about the Jordan Water Project ↗</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tbm" class="container mt-4">
+        <h2>Tunnel Boring Machine (TBM)</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="image1.jpg" alt="Working">
+                    <div class="card-body">
+                        <h3 class="card-title">Working</h3>
+                        <p class="card-text">A TBM is a complex machine designed to excavate tunnels through various types of soil and rock. Here's a simplified overview of its working:</p>
+                        <ul>
+                            <li><strong>Cutting Head:</strong> The cutting head is equipped with cutting tools, such as disc cutters or tungsten carbide teeth, which rotate to excavate the soil or rock.</li>
+                            <li><strong>Shield:</strong> The shield is a protective casing that surrounds the cutting head and supports the tunnel walls as excavation progresses.</li>
+                            <li><strong>Propulsion:</strong> The TBM is propelled forward by hydraulic or electric motors, which push the machine through the excavated soil or rock.</li>
+                            <li><strong>Muck Removal:</strong> The excavated material (muck) is removed from the tunnel through a conveyor belt or screw conveyor.</li>
+                            <li><strong>Segmental Lining:</strong> As the TBM advances, precast concrete segments are installed to form the tunnel lining, providing structural support and protection from groundwater.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="image1.jpg" alt="Hard rock TBMs">
+                    <div class="card-body">
+                        <h3 class="card-title">Hard rock TBMs</h3>
+                        <p class="card-text">Hard rock TBMs are designed to excavate tunnels through solid rock formations. They use disc cutters to break the rock into smaller pieces.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="image1.jpg" alt="Soft ground TBMs">
+                    <div class="card-body">
+                        <h3 class="card-title">Soft ground TBMs</h3>
+                        <p class="card-text">Soft ground TBMs, such as earth pressure balance (EPB) machines, are used to excavate tunnels through softer soils. They maintain pressure at the tunnel face to prevent collapse.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="image1.jpg" alt="Mixed ground TBMs">
+                    <div class="card-body">
+                        <h3 class="card-title">Mixed ground TBMs</h3>
+                        <p class="card-text">Mixed ground TBMs are designed to handle varying ground conditions, including both hard rock and soft soil. They can switch between different excavation modes as needed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="image1.jpg" alt="Micro-TBMs">
+                    <div class="card-body">
+                        <h3 class="card-title">Micro-TBMs</h3>
+                        <p class="card-text">Micro-TBMs are smaller machines used for constructing smaller tunnels, such as those for utility lines. They are highly maneuverable and can operate in confined spaces.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hydrology and Water Resources</p>
+        <p>&copy; @Team Hira</p>
+    </footer>
 </body>
 </html>
